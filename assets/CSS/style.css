@@ -1,0 +1,123 @@
+html { background-color: darkturquoise;
+}
+
+
+header {
+ position: static;
+ background-color: yellow;
+ line-height: 60px;
+ height: 60px;
+ border: solid 15 px lawngreen;
+ 
+}
+
+header h1 {
+    float: left;
+    position: static;
+}
+
+header nav {
+    float: right;
+    position: static;
+
+}
+
+h2 { position: static;
+    border: 15px solid darkblue;
+    background-color: cornflowerblue;
+    color: aquamarine;
+
+}
+
+p {
+    color: darkblue;
+}
+
+
+
+a:hover {
+    color: lightblue;
+}
+
+a:focus {
+    color: darkmagenta;
+}
+
+h1{ 
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 400px;
+    margin-top: 0px;
+    margin-left: 90px; 
+}
+
+.img_box{
+    position: relative; 
+    float: left;
+    width: 25%;
+    margin: 50px;
+}
+
+
+.img_box img { 
+ width: 100%;
+}
+
+.img_box p {
+    display: block;
+    background-color: #4aaaa5;
+    color: white;
+    height: 25px;
+    position: absolute;
+
+
+
+    bottom: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 15px 38px 15px;
+    text-align: center;
+
+
+
+
+}
+
+footer {
+    border: 5px solid blue;
+    background-color: aquamarine;
+    color: darkblue;
+    
+
+}
+
+@media screen and (max-width: 980px) {
+    html {
+    background-color: lightgreen;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    html {
+     background-color: dodgerblue;
+    }
+
+    
+}
+
+ @media screen and (max-width: 640px) {
+     html { 
+     background-color: darkviolet;
+     }
+
+     
+ }
+
+
+
+
+
+

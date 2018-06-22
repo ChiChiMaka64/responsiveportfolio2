@@ -1,15 +1,16 @@
-html { background-color: darkturquoise;
+html { background-color: whitesmoke;
 }
 
 
 header {
  position: static;
- background-color: yellow;
+ background-color: white;
  line-height: 60px;
  height: 60px;
- border: solid 15 px lawngreen;
+ border: solid 15 px whitesmoke;
  
 }
+
 
 header h1 {
     float: left;
@@ -22,15 +23,25 @@ header nav {
 
 }
 
+#header-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
 h2 { position: static;
-    border: 15px solid darkblue;
-    background-color: cornflowerblue;
-    color: aquamarine;
+    border: 1px solid #4aaaa5;
+    background-color: #4aaaa5;
+    color: whitesmoke;
 
 }
 
 p {
-    color: darkblue;
+    color: black;
 }
 
 
@@ -85,16 +96,28 @@ h1{
 }
 
 footer {
-    border: 5px solid blue;
-    background-color: aquamarine;
-    color: darkblue;
-    
-
+    border: 5px solid whitesmoke;
+    background-color: #4aaaa5;
+    color: white;
+    }
+ 
+#footer-wrapper{
+    width: 960px;
+    margin: 0 auto;
 }
 
+#container-wrapper-1{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#container-wrapper-2{
+    width: 960px;
+    margin: 0 auto;
+}
 @media screen and (max-width: 980px) {
     html {
-    background-color: lightgreen;
+    background-color: whitesmoke;
     }
 
     
@@ -102,7 +125,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     html {
-     background-color: dodgerblue;
+     background-color: whitesmoke;
     }
 
     
@@ -110,7 +133,7 @@ footer {
 
  @media screen and (max-width: 640px) {
      html { 
-     background-color: darkviolet;
+     background-color: whitesmoke;
      }
 
     header nav{

@@ -44,7 +44,10 @@ p {
     color: black;
 }
 
-
+a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
 
 a:hover {
     color: lightblue;
@@ -62,7 +65,6 @@ h1{
     margin-top: 0px;
     margin-left: 90px; 
 }
-
 .img_box{
     position: relative; 
     float: left;
@@ -103,7 +105,12 @@ footer {
  
 #footer-wrapper{
     width: 960px;
-    margin: 0 auto;
+    margin: 50 px;
+}
+img.resize{
+    max-width:30%;
+    max-height: 30%;
+    float: left;
 }
 
 #container-wrapper-1{
@@ -115,6 +122,27 @@ footer {
     width: 960px;
     margin: 0 auto;
 }
+ #social-media-wrapper-1 {
+    max-width: 33%;
+    float: left;
+}
+#social-media-wrapper-2 {
+    max-width: 33%;
+    float: left;
+}
+#social-media-wrapper-3 {
+    max-width: 33%;
+    float: left;
+}
+.social-media-img-box{
+    border: 10px solid #4aaaa5;
+    border-radius: 10 px;
+    padding: 10 px;
+    max-width: 100% 50 px;
+    max-height: 100% 50 px;
+    margin: 10 px;
+    position: static;
+} 
 @media screen and (max-width: 980px) {
     html {
     background-color: whitesmoke;

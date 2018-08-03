@@ -6,43 +6,106 @@
 <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
 
 <header>
-        <h1>Lynette Chiamaka Okoroike</h1>
-        <nav>
-        <a href="index.html">About</a>  
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>    
-        </nav>
+  <h1>Lynette Chiamaka Okoroike</h1>
+  <a href="lcokoroike@gmail.com">lcokoroike@gmail.com</a>
+  <nav>
+    <a href="index.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-    </header>
-    <br clear="all" />
+</header>
+<br clear="all" />
+
+<br/>
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="fullname" placeholder="Your full name..">
 
     <br/>
 
-    <div class="container">
-    <form action="action_page.php">
-  
-      <label for="name">Full Name</label>
-      <input type="text" id="name" name="fullname" placeholder="Your full name..">
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="emailaddress" placeholder="Your email address..">
 
-       <br/>
+    <br/>
 
-      <label for="email">Email Address</label>
-      <input type="text" id="email" name="emailaddress" placeholder="Your email address..">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Got something? Tell me!.." style="height:200px"></textarea>
 
-       <br/>
-  
-      <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Got something? Tell me!.." style="height:200px"></textarea>
+    <br/>
 
-       <br/>
+    <button type="submit" class="btn btn-primary">Submit</button>
 
-      <input type="submit" value="Submit">
+    <br/>
+  </form>
+</div>
 
-       <br/>
-    </form>
+<footer>
+  <div id="social-media-wrapper-1">
+    Connect with me!
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="social-media-img-box">
+          <a href="https://www.facebook.com/lynette.c.okoroike">
+            <img class="resize" src="assets/Images/facebook.jpg" alt="Lynette's Facebook profile page">
+          </a>
+        </div>
+        <div class="social-media-img-box">
+          <a href="https://twitter.com/LynetteOkoroike">
+            <img class="resize" src="assets/Images/twitter.jpg" alt="Lynette's Twitter profile page">
+          </a>
+        </div>
+        <div class="social-media-img-box">
+          <a href="https://www.instagram.com/chichimaka64/">
+            <img class="resize" src="assets/Images/instagram.png" alt="Lynette's Instagram profile page">
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <footer>
-      Website by Lynette Okoroike. Copyright 2018.
-  </footer>
-  
+  <div id="social-media-wrapper-2">
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="social-media-img-box">
+          <a href="https://www.youtube.com/channel/UCyVDy4P58Ss04myUk_Yqj2Q?view_as=subscriber">
+            <img class="resize" src="assets/Images/youtube.png" alt="Lynette's YouTube Page">
+          </a>
+        </div>
+        <div class="social-media-img-box">
+          <a href="https://www.linkedin.com/in/lynette-okoroike-15b20277/">
+            <img class="resize" src="assets/Images/linkedin.png" alt="Lynette's LinkedIn profile page">
+          </a>
+        </div>
+        <div class="social-media-img-box">
+          <a href="https://github.com/ChiChiMaka64">
+            <img class="resize" src="assets/Images/github.png" alt="Lynette's GitHub profile page">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="social-media-wrapper-3">
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="social-media-img-box">
+          <a href="https://lcodrums.wordpress.com/">
+            <img  class="resize" src="assets/Images/Drum-Icon.png" alt="Lynette's Drumming Website">
+          </a>
+        </div>
+        <div class="social-media-img-box">
+          <a href="https://www.facebook.com/lcopoetry/">
+            <img class="resize" src="assets/Images/love.jpg" alt="Lynette's Poetry Facebook Page">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer-wrapper">
+    Website by Lynette Okoroike. Copyright 2018.
+  </div>
+</footer>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script src="javascript/contact.js"></script>

@@ -163,6 +163,9 @@ img.resize{
      html { 
      background-color: whitesmoke;
      }
+     header h1{
+         margin-left: 228px;
+     }
 
     header nav{
         margin-right:228px;

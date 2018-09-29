@@ -8,6 +8,7 @@ header {
  line-height: 60px;
  height: 60px;
  border: solid 15 px aquamarine;
+ border: 5px solid seagreen;
  
 }
 
@@ -19,6 +20,7 @@ i{
     color: teal;
     font-family: 'Chicle', cursive;
     font-size: x-large;
+    border: 5px solid seagreen;
 }
 img.resize{
     max-width: 350px ;
@@ -54,6 +56,8 @@ h2 { position: static;
     font-family: 'Chicle', cursive;
     color: teal;
     font-size: xx-large;
+    border: 5px solid seagreen;
+    text-align: center;
 
 }
 
@@ -61,6 +65,7 @@ p { background-color: aquamarine;
     font-family: 'Chicle', cursive;
     color:teal;
     font-size: x-large;
+    border: 5px solid seagreen;
 }
 
 a {
@@ -123,11 +128,14 @@ footer {
     font-family: 'Chicle', cursive;
     font-size: x-large;
     padding: 15px 15px 38px 15px;
+    text-align: center;
+    border: 5px solid seagreen;
     }
  
 #footer-wrapper{
     width: 960px;
     margin: 50 px;
+    text-align: center;
 }
 /* img.resize{
     max-width:30%;
@@ -144,18 +152,13 @@ footer {
     width: 960px;
     margin: 0 auto;
 }
- #social-media-wrapper-1 {
+ #social-media-wrapper{
     color: teal;
     font-size: x-large;
+    display: inline-block;
+
 }
-#social-media-wrapper-2 {
-    color: teal;
-    font-size: x-large;
-}
-#social-media-wrapper-3 {
-    color: teal;
-    font-size: x-large;
-}
+
 .social-media-icon{
     border-radius: 10 px;
     padding: 10 px;

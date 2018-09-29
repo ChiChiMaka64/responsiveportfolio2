@@ -1,25 +1,41 @@
-html { background-color: whitesmoke;
+html { background-image: url("../Images/water.jpg");
 }
 
 
 header {
- position: static;
- background-color: white;
+ position: sticky;
+ background-color: aquamarine;
  line-height: 60px;
  height: 60px;
- border: solid 15 px whitesmoke;
+ border: solid 15 px aquamarine;
  
+}
+
+i{
+    color: teal;
+}
+.container{
+    background-color: aquamarine;
+    color: teal;
+    font-family: 'Chicle', cursive;
+    font-size: x-large;
+}
+img.resize{
+    max-width: 350px ;
+    max-height: 350px; 
 }
 
 
 header h1 {
     float: left;
-    position: static;
+    font-family: 'Chicle', cursive;
+    position: sticky;
 }
 
 header nav {
     float: right;
-    position: static;
+    font-family: 'Chicle', cursive;
+    position: sticky;
 
 }
 
@@ -34,32 +50,36 @@ header nav {
 }
 
 h2 { position: static;
-    border: 1px solid #4aaaa5;
-    background-color: #4aaaa5;
-    color: whitesmoke;
+    background-color: aquamarine;
+    font-family: 'Chicle', cursive;
+    color: teal;
+    font-size: xx-large;
 
 }
 
-p {
-    color: black;
+p { background-color: aquamarine;
+    font-family: 'Chicle', cursive;
+    color:teal;
+    font-size: x-large;
 }
 
 a {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Chicle', cursive;
     font-size: x-large;
 }
 
 a:hover {
-    color: lightblue;
+    color: cyan;
 }
 
 a:focus {
-    color: darkmagenta;
+    color: seagreen;
 }
 
 h1{ 
-    color: white;
-    background-color: #4aaaa5;
+    color: teal;
+    background-color: aquamarine;
+    font-family: 'Chicle', cursive;
     text-align: center;
     width: 400px;
     margin-top: 0px;
@@ -79,8 +99,8 @@ h1{
 
 .img_box p {
     display: block;
-    background-color: #4aaaa5;
-    color: white;
+    background-color: aquamarine;
+    color: teal;
     height: 25px;
     position: absolute;
 
@@ -98,20 +118,22 @@ h1{
 }
 
 footer {
-    border: 5px solid whitesmoke;
-    background-color: #4aaaa5;
-    color: white;
+    background-color: aquamarine;
+    color: teal;
+    font-family: 'Chicle', cursive;
+    font-size: x-large;
+    padding: 15px 15px 38px 15px;
     }
  
 #footer-wrapper{
     width: 960px;
     margin: 50 px;
 }
-img.resize{
+/* img.resize{
     max-width:30%;
     max-height: 30%;
     float: left;
-}
+} */
 
 #container-wrapper-1{
     width: 960px;
@@ -123,29 +145,32 @@ img.resize{
     margin: 0 auto;
 }
  #social-media-wrapper-1 {
-    max-width: 33%;
-    float: left;
+    color: teal;
+    font-size: x-large;
 }
 #social-media-wrapper-2 {
-    max-width: 33%;
-    float: left;
+    color: teal;
+    font-size: x-large;
 }
 #social-media-wrapper-3 {
-    max-width: 33%;
-    float: left;
+    color: teal;
+    font-size: x-large;
 }
-.social-media-img-box{
-    border: 10px solid #4aaaa5;
+.social-media-icon{
     border-radius: 10 px;
     padding: 10 px;
-    max-width: 100% 50 px;
-    max-height: 100% 50 px;
+    max-width: 100% 200 px;
+    max-height: 100% 200 px;
     margin: 10 px;
-    position: static;
+    position: sticky;
+    background-color: aquamarine;
+    color: teal;
+    font-size: x-large;
+    display: inline-block;
 } 
 @media screen and (max-width: 980px) {
     html {
-    background-color: whitesmoke;
+    background-color: aquamarine;
     }
 
     
@@ -153,7 +178,7 @@ img.resize{
 
 @media screen and (max-width: 768px) {
     html {
-     background-color: whitesmoke;
+     background-color: aquamarine;
     }
 
     
@@ -161,7 +186,7 @@ img.resize{
 
  @media screen and (max-width: 640px) {
      html { 
-     background-color: whitesmoke;
+     background-color: aquamarine;
      }
      header h1{
          margin-left: 228px;
@@ -170,8 +195,25 @@ img.resize{
     header nav{
         margin-right:228px;
     }
+    body{
+        text-align: center;
+    }
  }
+ @media screen and (max-width: 420px) {
+    html { 
+    background-color: aquamarine;
+    }
+    header h1{
+        margin-left: 228px;
+    }
 
+   header nav{
+       margin-right:228px;
+   }
+   body{
+       text-align: center;
+   }
+}
 
 
 

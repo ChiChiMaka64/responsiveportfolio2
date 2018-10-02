@@ -21,6 +21,12 @@ i{
     font-family: 'Chicle', cursive;
     font-size: x-large;
     border: 5px solid seagreen;
+    max-width: 270px ; 
+    position: static;
+}
+.container1{
+    border: 5px solid seagreen;
+    max-width: 270px ; 
 }
 img.resize{
     max-width: 350px ;
@@ -65,7 +71,7 @@ p { background-color: aquamarine;
     font-family: 'Chicle', cursive;
     color:teal;
     font-size: x-large;
-    border: 5px solid seagreen;
+    text-align: center;
 }
 
 a {
@@ -78,9 +84,11 @@ a:hover {
 }
 
 a:focus {
+    color: springgreen;
+}
+a:visited {
     color: seagreen;
 }
-
 h1{ 
     color: teal;
     background-color: aquamarine;
@@ -95,6 +103,7 @@ h1{
     float: left;
     width: 25%;
     margin: 50px;
+    border: 5px solid seagreen;
 }
 
 
@@ -120,6 +129,12 @@ h1{
 
 
 
+}
+.row{
+    display: inline-block;
+    background-color: aquamarine;
+    color: teal;
+    border: 5px solid seagreen;
 }
 
 footer {

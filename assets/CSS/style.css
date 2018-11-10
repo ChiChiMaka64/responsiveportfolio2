@@ -25,8 +25,7 @@ i{
     position: static;
 }
 .container1{
-    border: 5px solid seagreen;
-    max-width: 270px ; 
+    max-width: 200px ; 
 }
 img.resize{
     max-width: 350px ;
@@ -152,11 +151,13 @@ footer {
     margin: 50 px;
     text-align: center;
 }
-/* img.resize{
-    max-width:30%;
-    max-height: 30%;
+img.resize{
+    max-width:100%;
+    max-height: 100%;
     float: left;
-} */
+    position: relative;
+    transform: rotate(90deg);
+} 
 
 #container-wrapper-1{
     width: 960px;

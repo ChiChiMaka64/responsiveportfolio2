@@ -27,10 +27,11 @@ i{
 .container1{
     max-width: 200px ; 
 }
-img.resize{
+ img.resize{
     max-width: 350px ;
     max-height: 350px; 
-}
+    border: 5px solid seagreen;
+} 
 
 
 header h1 {

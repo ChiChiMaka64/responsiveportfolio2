@@ -30,7 +30,8 @@ i{
  img.resize{
     max-width: 350px ;
     max-height: 350px; 
-    border: 5px solid aqua;
+    border-radius: 50%;
+    clip-path: circle(70px);
 } 
 
 

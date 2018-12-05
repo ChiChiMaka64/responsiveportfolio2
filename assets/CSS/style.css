@@ -67,7 +67,7 @@ h2 { position: static;
 
 }
 
-p { background-color:rgba(0, 0, 0, 0.4) ;
+p { 
     font-family: 'Chicle', cursive;
     color: aqua;
     font-size: x-large;
@@ -91,7 +91,6 @@ a:visited {
 }
 h1{ 
     color: aqua;
-    background-color: rgba(0, 0, 0, 0.4);
     font-family: 'Chicle', cursive;
     text-align: center;
     width: 400px;
@@ -130,7 +129,7 @@ h1{
 
 
 }
-.row{
+.row{ 
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.4);
     color:aqua;

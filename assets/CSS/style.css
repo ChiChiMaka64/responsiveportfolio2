@@ -10,6 +10,7 @@ header {
  background-color:rgba(0, 0, 0, 0.4);
  line-height: 60px;
  height: 60px;
+
  
 }
 
@@ -23,6 +24,7 @@ i{
     font-size: x-large;
     max-width: 270px ; 
     position: static;
+    margin: 50px;
 }
 .container1{
     max-width: 200px ; 
@@ -162,6 +164,11 @@ img.resize{
     position: relative;
     transform: rotate(90deg);
 } 
+#solo, #group{
+    z-index: -1;
+    position: relative;
+    
+}
 
 #container-wrapper-1{
     width: 960px;
